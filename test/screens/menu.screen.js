@@ -1,10 +1,11 @@
-class Forms {
+class Buttons {
     get enterFormsPage(){
         return $('Forms')
     }
     async goToForms(){
         this.enterFormsPage.click()
-    }
+    } 
 }
 
-module.exports = new Forms()
+
+module.exports = new Buttons()
